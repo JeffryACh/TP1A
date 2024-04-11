@@ -1,26 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\XPC\\OneDrive - Estudiantes ITCR\\Documentos\\Ing. Computacion\\Quinto Semestre\\Estructuras de Datos\\TP\\TP1A\\TP1A\\ParqueosAutomaticos\\",
+  "WorkspaceRootPath": "C:\\Users\\ACER\\OneDrive - Estudiantes ITCR\\Documentos\\Ing. Computacion\\Quinto Semestre\\Estructuras de Datos\\TP\\TP1A\\TP1A\\ParqueosAutomaticos\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F9E68418-23F1-4D93-856A-724DD01AE2F9}|ParqueosAutomaticos.vcxproj|C:\\Users\\XPC\\OneDrive - Estudiantes ITCR\\Documentos\\Ing. Computacion\\Quinto Semestre\\Estructuras de Datos\\TP\\TP1A\\TP1A\\ParqueosAutomaticos\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{F9E68418-23F1-4D93-856A-724DD01AE2F9}|ParqueosAutomaticos.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F9E68418-23F1-4D93-856A-724DD01AE2F9}|ParqueosAutomaticos.vcxproj|C:\\Users\\XPC\\OneDrive - Estudiantes ITCR\\Documentos\\Ing. Computacion\\Quinto Semestre\\Estructuras de Datos\\TP\\TP1A\\TP1A\\ParqueosAutomaticos\\ParqueoAutomatico.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{F9E68418-23F1-4D93-856A-724DD01AE2F9}|ParqueosAutomaticos.vcxproj|C:\\Users\\ACER\\OneDrive - Estudiantes ITCR\\Documentos\\Ing. Computacion\\Quinto Semestre\\Estructuras de Datos\\TP\\TP1A\\TP1A\\ParqueosAutomaticos\\ParqueoAutomatico.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{F9E68418-23F1-4D93-856A-724DD01AE2F9}|ParqueosAutomaticos.vcxproj|solutionrelative:ParqueoAutomatico.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F9E68418-23F1-4D93-856A-724DD01AE2F9}|ParqueosAutomaticos.vcxproj|C:\\Users\\XPC\\OneDrive - Estudiantes ITCR\\Documentos\\Ing. Computacion\\Quinto Semestre\\Estructuras de Datos\\TP\\TP1A\\TP1A\\ParqueosAutomaticos\\ParqueoAutomatico.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{F9E68418-23F1-4D93-856A-724DD01AE2F9}|ParqueosAutomaticos.vcxproj|solutionrelative:ParqueoAutomatico.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F9E68418-23F1-4D93-856A-724DD01AE2F9}|ParqueosAutomaticos.vcxproj|C:\\Users\\XPC\\OneDrive - Estudiantes ITCR\\Documentos\\Ing. Computacion\\Quinto Semestre\\Estructuras de Datos\\TP\\TP1A\\TP1A\\ParqueosAutomaticos\\Vehiculo.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{F9E68418-23F1-4D93-856A-724DD01AE2F9}|ParqueosAutomaticos.vcxproj|C:\\Users\\ACER\\OneDrive - Estudiantes ITCR\\Documentos\\Ing. Computacion\\Quinto Semestre\\Estructuras de Datos\\TP\\TP1A\\TP1A\\ParqueosAutomaticos\\Vehiculo.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{F9E68418-23F1-4D93-856A-724DD01AE2F9}|ParqueosAutomaticos.vcxproj|solutionrelative:Vehiculo.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F9E68418-23F1-4D93-856A-724DD01AE2F9}|ParqueosAutomaticos.vcxproj|C:\\Users\\XPC\\OneDrive - Estudiantes ITCR\\Documentos\\Ing. Computacion\\Quinto Semestre\\Estructuras de Datos\\TP\\TP1A\\TP1A\\ParqueosAutomaticos\\User.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "AbsoluteMoniker": "D:0:0:{F9E68418-23F1-4D93-856A-724DD01AE2F9}|ParqueosAutomaticos.vcxproj|C:\\Users\\ACER\\OneDrive - Estudiantes ITCR\\Documentos\\Ing. Computacion\\Quinto Semestre\\Estructuras de Datos\\TP\\TP1A\\TP1A\\ParqueosAutomaticos\\User.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{F9E68418-23F1-4D93-856A-724DD01AE2F9}|ParqueosAutomaticos.vcxproj|solutionrelative:User.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9E68418-23F1-4D93-856A-724DD01AE2F9}|ParqueosAutomaticos.vcxproj|C:\\Users\\ACER\\OneDrive - Estudiantes ITCR\\Documentos\\Ing. Computacion\\Quinto Semestre\\Estructuras de Datos\\TP\\TP1A\\TP1A\\ParqueosAutomaticos\\ParqueoAutomatico.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F9E68418-23F1-4D93-856A-724DD01AE2F9}|ParqueosAutomaticos.vcxproj|solutionrelative:ParqueoAutomatico.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9E68418-23F1-4D93-856A-724DD01AE2F9}|ParqueosAutomaticos.vcxproj|C:\\Users\\ACER\\OneDrive - Estudiantes ITCR\\Documentos\\Ing. Computacion\\Quinto Semestre\\Estructuras de Datos\\TP\\TP1A\\TP1A\\ParqueosAutomaticos\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F9E68418-23F1-4D93-856A-724DD01AE2F9}|ParqueosAutomaticos.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,69 +30,69 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "ParqueoAutomatico.cpp",
-              "DocumentMoniker": "C:\\Users\\XPC\\OneDrive - Estudiantes ITCR\\Documentos\\Ing. Computacion\\Quinto Semestre\\Estructuras de Datos\\TP\\TP1A\\TP1A\\ParqueosAutomaticos\\ParqueoAutomatico.cpp",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive - Estudiantes ITCR\\Documentos\\Ing. Computacion\\Quinto Semestre\\Estructuras de Datos\\TP\\TP1A\\TP1A\\ParqueosAutomaticos\\ParqueoAutomatico.cpp",
               "RelativeDocumentMoniker": "ParqueoAutomatico.cpp",
-              "ToolTip": "C:\\Users\\XPC\\OneDrive - Estudiantes ITCR\\Documentos\\Ing. Computacion\\Quinto Semestre\\Estructuras de Datos\\TP\\TP1A\\TP1A\\ParqueosAutomaticos\\ParqueoAutomatico.cpp",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive - Estudiantes ITCR\\Documentos\\Ing. Computacion\\Quinto Semestre\\Estructuras de Datos\\TP\\TP1A\\TP1A\\ParqueosAutomaticos\\ParqueoAutomatico.cpp",
               "RelativeToolTip": "ParqueoAutomatico.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAEkAAAABAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-04-07T22:29:27.483Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "User.h",
-              "DocumentMoniker": "C:\\Users\\XPC\\OneDrive - Estudiantes ITCR\\Documentos\\Ing. Computacion\\Quinto Semestre\\Estructuras de Datos\\TP\\TP1A\\TP1A\\ParqueosAutomaticos\\User.h",
-              "RelativeDocumentMoniker": "User.h",
-              "ToolTip": "C:\\Users\\XPC\\OneDrive - Estudiantes ITCR\\Documentos\\Ing. Computacion\\Quinto Semestre\\Estructuras de Datos\\TP\\TP1A\\TP1A\\ParqueosAutomaticos\\User.h",
-              "RelativeToolTip": "User.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAOAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-04-07T22:14:53.887Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "ParqueoAutomatico.h",
-              "DocumentMoniker": "C:\\Users\\XPC\\OneDrive - Estudiantes ITCR\\Documentos\\Ing. Computacion\\Quinto Semestre\\Estructuras de Datos\\TP\\TP1A\\TP1A\\ParqueosAutomaticos\\ParqueoAutomatico.h",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive - Estudiantes ITCR\\Documentos\\Ing. Computacion\\Quinto Semestre\\Estructuras de Datos\\TP\\TP1A\\TP1A\\ParqueosAutomaticos\\ParqueoAutomatico.h",
               "RelativeDocumentMoniker": "ParqueoAutomatico.h",
-              "ToolTip": "C:\\Users\\XPC\\OneDrive - Estudiantes ITCR\\Documentos\\Ing. Computacion\\Quinto Semestre\\Estructuras de Datos\\TP\\TP1A\\TP1A\\ParqueosAutomaticos\\ParqueoAutomatico.h",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive - Estudiantes ITCR\\Documentos\\Ing. Computacion\\Quinto Semestre\\Estructuras de Datos\\TP\\TP1A\\TP1A\\ParqueosAutomaticos\\ParqueoAutomatico.h",
               "RelativeToolTip": "ParqueoAutomatico.h",
-              "ViewState": "AQIAABIAAAAAAAAAAAAAAA8AAAAMAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-04-07T22:08:01.516Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
+              "Title": "User.h",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive - Estudiantes ITCR\\Documentos\\Ing. Computacion\\Quinto Semestre\\Estructuras de Datos\\TP\\TP1A\\TP1A\\ParqueosAutomaticos\\User.h",
+              "RelativeDocumentMoniker": "User.h",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive - Estudiantes ITCR\\Documentos\\Ing. Computacion\\Quinto Semestre\\Estructuras de Datos\\TP\\TP1A\\TP1A\\ParqueosAutomaticos\\User.h",
+              "RelativeToolTip": "User.h",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-04-07T22:14:53.887Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Vehiculo.h",
-              "DocumentMoniker": "C:\\Users\\XPC\\OneDrive - Estudiantes ITCR\\Documentos\\Ing. Computacion\\Quinto Semestre\\Estructuras de Datos\\TP\\TP1A\\TP1A\\ParqueosAutomaticos\\Vehiculo.h",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive - Estudiantes ITCR\\Documentos\\Ing. Computacion\\Quinto Semestre\\Estructuras de Datos\\TP\\TP1A\\TP1A\\ParqueosAutomaticos\\Vehiculo.h",
               "RelativeDocumentMoniker": "Vehiculo.h",
-              "ToolTip": "C:\\Users\\XPC\\OneDrive - Estudiantes ITCR\\Documentos\\Ing. Computacion\\Quinto Semestre\\Estructuras de Datos\\TP\\TP1A\\TP1A\\ParqueosAutomaticos\\Vehiculo.h",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive - Estudiantes ITCR\\Documentos\\Ing. Computacion\\Quinto Semestre\\Estructuras de Datos\\TP\\TP1A\\TP1A\\ParqueosAutomaticos\\Vehiculo.h",
               "RelativeToolTip": "Vehiculo.h",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAQAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2024-04-07T22:05:41.237Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "main.cpp",
-              "DocumentMoniker": "C:\\Users\\XPC\\OneDrive - Estudiantes ITCR\\Documentos\\Ing. Computacion\\Quinto Semestre\\Estructuras de Datos\\TP\\TP1A\\TP1A\\ParqueosAutomaticos\\main.cpp",
+              "DocumentMoniker": "C:\\Users\\ACER\\OneDrive - Estudiantes ITCR\\Documentos\\Ing. Computacion\\Quinto Semestre\\Estructuras de Datos\\TP\\TP1A\\TP1A\\ParqueosAutomaticos\\main.cpp",
               "RelativeDocumentMoniker": "main.cpp",
-              "ToolTip": "C:\\Users\\XPC\\OneDrive - Estudiantes ITCR\\Documentos\\Ing. Computacion\\Quinto Semestre\\Estructuras de Datos\\TP\\TP1A\\TP1A\\ParqueosAutomaticos\\main.cpp",
+              "ToolTip": "C:\\Users\\ACER\\OneDrive - Estudiantes ITCR\\Documentos\\Ing. Computacion\\Quinto Semestre\\Estructuras de Datos\\TP\\TP1A\\TP1A\\ParqueosAutomaticos\\main.cpp",
               "RelativeToolTip": "main.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-04-07T21:58:08.587Z",
               "EditorCaption": ""

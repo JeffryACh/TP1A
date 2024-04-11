@@ -1,3 +1,15 @@
+/*
+	Autores:
+	+ Jeffry Araya Ch.
+	+ Gabriel Barrantes Vi.
+
+	FechaDeCreación:
+	07/04/2024 16:05
+
+	ÚltimaModificación:
+	10/04/2024 20:30
+*/
+
 #pragma once
 #ifndef PARQUEOAUTOMATICO_H
 #define PARQUEOAUTOMATICO_H
@@ -6,24 +18,27 @@
 #include "User.h"
 
 typedef struct Nodo {
-	User user;
+	Vehiculo* carro;
+	bool ocupado;
 	Nodo* next;
-	Nodo* prev;
-};
+}Nodo;
 
 class ParqueoAutomatico {
 	private:
-		Nodo* Nodo;
+		Nodo* PrimerNodo;
+		Nodo* UltimoNodo;
 		int size;
+
+		int CantidadDeVehiculos();
+		int CantidadDeEspaciosDisponibles();
+		Nodo* BuscarEspacioDisponible();
+		Nodo* BuscarVehiculo(string placa);
 	public:
 		ParqueoAutomatico(int size);
 		~ParqueoAutomatico();
 		void MeterVehiculo(Vehiculo* vehiculo);
-		Vehiculo SacarVehiculo(int id);
+		Vehiculo* SacarVehiculo(string id);
 		void mostrarVehiculos();
-		bool buscarVehiculo(int id);
-		void mostrarVehiculosPorUsuario(int id);
-
 };
 
 #endif // PARQUEOAUTOMATICO_H
