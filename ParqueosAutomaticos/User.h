@@ -20,6 +20,11 @@
 
 using namespace std;
 
+/*
+	Struct User, contiene los siguientes atributos:
+	+ string name -> nombre del usuario
+	+ int id -> identificación del usuario
+*/
 typedef struct User {
 	string name;
 	int id;

@@ -19,6 +19,11 @@
 
 using namespace std;
 
+/*
+	Struct Vehiculo, contiene los siguientes atributos:
+	+ string placa -> placa del vehículo
+	+ User* chofer -> puntero al chofer del vehículo
+*/
 typedef struct Vehiculo {
     string placa; 
     User* chofer;

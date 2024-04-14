@@ -17,12 +17,24 @@
 #include "Vehiculo.h"
 #include "User.h"
 
+/*
+	Struct Nodo, contiene los siguientes atributos:
+	+ Vehiculo* carro -> puntero a un objeto de tipo Vehiculo
+	+ bool ocupado -> indica si el espacio está ocupado o no
+	+ Nodo* next -> puntero al siguiente nodo
+*/
 typedef struct Nodo {
 	Vehiculo* carro;
 	bool ocupado;
 	Nodo* next;
 }Nodo;
 
+/*
+	Clase ParqueoAutomatico, contiene los siguientes atributos:
+	+ Nodo* PrimerNodo -> puntero al primer nodo
+	+ Nodo* UltimoNodo -> puntero al último nodo
+	+ int size -> tamaño del parqueo
+*/
 class ParqueoAutomatico {
 	private:
 		Nodo* PrimerNodo;
@@ -39,6 +51,8 @@ class ParqueoAutomatico {
 		void MeterVehiculo(Vehiculo* vehiculo);
 		Vehiculo* SacarVehiculo(string id);
 		void mostrarVehiculos();
+		bool existeVehiculo(string placa);
+		bool estaLleno();
 };
 
 #endif // PARQUEOAUTOMATICO_H
