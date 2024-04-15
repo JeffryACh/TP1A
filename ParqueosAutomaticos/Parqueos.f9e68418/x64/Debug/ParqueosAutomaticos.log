@@ -1,2 +1,6 @@
-﻿  main.cpp
+﻿  ParqueoAutomatico.cpp
+  SegundoParqueo.cpp
+  main.cpp
+  Generating Code...
+C:\Users\ACER\OneDrive - Estudiantes ITCR\Documentos\Ing. Computacion\Quinto Semestre\Estructuras de Datos\TP\TP1A\TP1A\ParqueosAutomaticos\ParqueoAutomatico.cpp(185,1): warning C4715: 'ParqueoAutomatico::SacarVehiculo': not all control paths return a value
   ParqueosAutomaticos.vcxproj -> C:\Users\ACER\OneDrive - Estudiantes ITCR\Documentos\Ing. Computacion\Quinto Semestre\Estructuras de Datos\TP\TP1A\TP1A\ParqueosAutomaticos\x64\Debug\ParqueosAutomaticos.exe

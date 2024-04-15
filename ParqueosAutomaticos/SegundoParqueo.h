@@ -47,4 +47,4 @@ public:
 	bool estaLleno();
 };
 
-#endif // !SEGUNDOPARQUEO_H
+#endif // SEGUNDOPARQUEO_H
