@@ -30,6 +30,9 @@
     <ClCompile Include="SegundoParqueo.cpp">
       <Filter>Archivos de recursos\Clases</Filter>
     </ClCompile>
+    <ClCompile Include="TercerParqueo.cpp">
+      <Filter>Archivos de recursos\Clases</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -48,6 +51,12 @@
       <Filter>Archivos de recursos\Clases</Filter>
     </ClInclude>
     <ClInclude Include="Nodo.h">
+      <Filter>Archivos de recursos\Structs</Filter>
+    </ClInclude>
+    <ClInclude Include="TercerParqueo.h">
+      <Filter>Archivos de recursos\Clases</Filter>
+    </ClInclude>
+    <ClInclude Include="NodoDoble.h">
       <Filter>Archivos de recursos\Structs</Filter>
     </ClInclude>
   </ItemGroup>

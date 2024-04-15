@@ -130,13 +130,16 @@
     <ClCompile Include="main.cpp" />
     <ClCompile Include="ParqueoAutomatico.cpp" />
     <ClCompile Include="SegundoParqueo.cpp" />
+    <ClCompile Include="TercerParqueo.cpp" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Nodo.h" />
+    <ClInclude Include="NodoDoble.h" />
     <ClInclude Include="SegundoParqueo.h" />
+    <ClInclude Include="TercerParqueo.h" />
     <ClInclude Include="User.h" />
     <ClInclude Include="ParqueoAutomatico.h" />
     <ClInclude Include="Vehiculo.h" />

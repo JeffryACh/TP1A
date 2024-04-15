@@ -119,5 +119,15 @@ int main()
 	cout << "Cantidad de vehiculos: " << parqueoDe2Plantas->CantidadDeVehiculos() << endl;
 	parqueoDe2Plantas->mostrarVehiculos();
 
+	delete parqueoDe2Plantas;
+	delete user1;
+	delete vehiculo1;
+	delete user2;
+	delete vehiculo2;
+	delete user3;
+	delete vehiculo3;
+	delete user4;
+	delete vehiculo4;
+
 	return 0;
 }
