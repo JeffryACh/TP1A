@@ -7,7 +7,7 @@
 	07/04/2024 16:05
 
 	ÚltimaModificación:
-	10/04/2024 20:30
+	14/04/2024 19:00
 */
 
 #pragma once
@@ -16,18 +16,9 @@
 
 #include "Vehiculo.h"
 #include "User.h"
-
-/*
-	Struct Nodo, contiene los siguientes atributos:
-	+ Vehiculo* carro -> puntero a un objeto de tipo Vehiculo
-	+ bool ocupado -> indica si el espacio está ocupado o no
-	+ Nodo* next -> puntero al siguiente nodo
-*/
-typedef struct Nodo {
-	Vehiculo* carro;
-	bool ocupado;
-	Nodo* next;
-}Nodo;
+#include "Nodo.h"
+#include <iostream>
+#include <string>
 
 /*
 	Clase ParqueoAutomatico, contiene los siguientes atributos:
@@ -41,16 +32,16 @@ class ParqueoAutomatico {
 		Nodo* UltimoNodo;
 		int size;
 
-		int CantidadDeVehiculos();
-		int CantidadDeEspaciosDisponibles();
-		Nodo* BuscarEspacioDisponible();
-		Nodo* BuscarVehiculo(string placa);
 	public:
 		ParqueoAutomatico(int size);
 		~ParqueoAutomatico();
 		void MeterVehiculo(Vehiculo* vehiculo);
+		int CantidadDeVehiculos();
 		Vehiculo* SacarVehiculo(string id);
 		void mostrarVehiculos();
+		Nodo* BuscarEspacioDisponible();
+		Nodo* BuscarVehiculo(string placa);
+		int CantidadDeEspaciosDisponibles();
 		bool existeVehiculo(string placa);
 		bool estaLleno();
 };

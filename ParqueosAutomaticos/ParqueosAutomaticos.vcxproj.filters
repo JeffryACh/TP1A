@@ -27,6 +27,9 @@
     <ClCompile Include="ParqueoAutomatico.cpp">
       <Filter>Archivos de recursos\Clases</Filter>
     </ClCompile>
+    <ClCompile Include="SegundoParqueo.cpp">
+      <Filter>Archivos de recursos\Clases</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -39,6 +42,12 @@
       <Filter>Archivos de recursos\Structs</Filter>
     </ClInclude>
     <ClInclude Include="ParqueoAutomatico.h">
+      <Filter>Archivos de recursos\Clases</Filter>
+    </ClInclude>
+    <ClInclude Include="SegundoParqueo.h">
+      <Filter>Archivos de recursos\Clases</Filter>
+    </ClInclude>
+    <ClInclude Include="Nodo.h">
       <Filter>Archivos de recursos\Structs</Filter>
     </ClInclude>
   </ItemGroup>

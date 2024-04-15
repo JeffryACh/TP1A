@@ -7,11 +7,10 @@
 	07/04/2024 16:05
 
 	ÚltimaModificación:
-	10/04/2024 20:30
+	14/04/2024 19:00
 */
 
 #include "ParqueoAutomatico.h"
-#include <iostream>
 
 using namespace std;
 
