@@ -37,7 +37,7 @@ class TercerParqueo {
 		~TercerParqueo();
 		int CantidadDeVehiculos();
 		int CantidadDeEspaciosDisponibles();
-		Nodo* BuscarEspacioDisponible();
+		NodoDoble* BuscarEspacioDisponible();
 		void MeterVehiculo(Vehiculo* vehiculo);
 		Vehiculo* SacarVehiculo(string id);
 		void mostrarVehiculos();

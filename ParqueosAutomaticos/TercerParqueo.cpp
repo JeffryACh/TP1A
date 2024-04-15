@@ -23,15 +23,26 @@ TercerParqueo::TercerParqueo(int size) {
 	size = size;
 	for (int i = 0; i < size; i++)
 	{
-		User* user = new User();
-		Vehiculo* vehiculo = new Vehiculo();
-		vehiculo->chofer = user;
+		User* user = NULL;
+		Vehiculo* vehiculo = NULL;
 		for (int j = 0; j < columnas; j++)
 		{
-			NodoDoble* nuevoNodo = new NodoDoble();
-			nuevoNodo->carro[j] = vehiculo;
-			nuevoNodo->ocupado = false;
-
+			NodoDoble* nuevoNodo = NULL;
+			nuevoNodo->nodos[j]->carro = vehiculo;
+			nuevoNodo->nodos[j]->ocupado = false;
+			nuevoNodo->nodos[j]->carro->chofer = user;
+			nuevoNodo->completamenteOcupado = false;
+			nuevoNodo->next = NULL;
+			if (i == 0 && j == 0)
+			{
+				PrimerNodoDoble = nuevoNodo;
+				UltimoNodoDoble = nuevoNodo;
+			}
+			else
+			{
+				UltimoNodoDoble->next = nuevoNodo;
+				UltimoNodoDoble = nuevoNodo;
+			}
 		}
 	}
 }
@@ -61,7 +72,18 @@ TercerParqueo::~TercerParqueo() {
 */
 int TercerParqueo::CantidadDeVehiculos() {
 	int cantidad = 0;
-	
+	NodoDoble* AUX = PrimerNodoDoble;
+	while (AUX != NULL)
+	{
+		for (int i = 0; i < columnas; i++)
+		{
+			if (AUX->nodos[i]->ocupado)
+			{
+				cantidad++;
+			}
+		}
+	}
+	return cantidad;
 }
 
 /*
@@ -73,7 +95,18 @@ int TercerParqueo::CantidadDeVehiculos() {
 */
 int TercerParqueo::CantidadDeEspaciosDisponibles() {
 	int cantidad = 0;
-	
+	NodoDoble* AUX = PrimerNodoDoble;
+	while (AUX != NULL)
+	{
+		for (int i = 0; i < columnas; i++)
+		{
+			if (!AUX->nodos[i]->ocupado)
+			{
+				cantidad++;
+			}
+		}
+	}
+	return cantidad;
 }
 
 /*
@@ -83,8 +116,20 @@ int TercerParqueo::CantidadDeEspaciosDisponibles() {
 	return:
 		+ Nodo* -> retorna un puntero al nodo que representa el espacio disponible
 */
-Nodo* TercerParqueo::BuscarEspacioDisponible() {
-	
+NodoDoble* TercerParqueo::BuscarEspacioDisponible() 
+{
+	NodoDoble* AUX = PrimerNodoDoble;
+	while (AUX != NULL)
+	{
+		for (int i = 0; i < columnas; i++)
+		{
+			if (!AUX->nodos[i]->ocupado)
+			{
+				return AUX;
+			}
+		}
+	}
+
 	return NULL;
 }
 
@@ -95,8 +140,21 @@ Nodo* TercerParqueo::BuscarEspacioDisponible() {
 	return:
 		+ void -> no retorna nada
 */
-void TercerParqueo::MeterVehiculo(Vehiculo* vehiculo) {
-	
+void TercerParqueo::MeterVehiculo(Vehiculo* vehiculo)
+{
+	NodoDoble* espacio = BuscarEspacioDisponible();
+	if (espacio != NULL)
+	{
+		for (int i = 0; i < columnas; i++)
+		{
+			if (!espacio->nodos[i]->ocupado)
+			{
+				espacio->nodos[i]->carro = vehiculo;
+				espacio->nodos[i]->ocupado = true;
+				break;
+			}
+		}
+	}
 }
 
 /*
@@ -142,18 +200,6 @@ bool TercerParqueo::existeVehiculo(string placa) {
 		+ bool -> retorna true si el parqueo está lleno, false en caso contrario
 */
 bool TercerParqueo::estaLleno() {
-	
-	return false;
-}
-
-/*
-	Método que verifica si el parqueo está vacío
-	param:
-		+ void -> no recibe parametros
-	return:
-		+ bool -> retorna true si el parqueo está vacío, false en caso contrario
-*/
-bool TercerParqueo::estaVacio() {
 	
 	return false;
 }

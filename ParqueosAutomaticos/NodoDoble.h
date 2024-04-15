@@ -14,8 +14,7 @@
 #ifndef NODODOBLE_H
 #define NODODOBLE_H
 
-#include "Vehiculo.h"
-#include "User.h"
+#include "Nodo.h"
 #include <iostream>
 #include <string>
 
@@ -27,8 +26,8 @@
 	+ NodoDoble* prev -> puntero al nodo anterior
 */
 typedef struct NodoDoble {
-	Vehiculo* carro[2];
-	bool ocupado;
+	Nodo* nodos[2];
+	bool completamenteOcupado;
 	NodoDoble* next;
 };
 
