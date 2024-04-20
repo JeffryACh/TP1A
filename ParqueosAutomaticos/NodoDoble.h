@@ -27,7 +27,6 @@
 */
 typedef struct NodoDoble {
 	Nodo* nodos[2];
-	bool completamenteOcupado;
 	NodoDoble* next;
 };
 
