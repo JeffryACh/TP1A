@@ -16,6 +16,8 @@
 	Constructor de la clase TercerParqueo
 	param:
 		+ int size -> tamaño del parqueo
+	return:
+		+ void -> no retorna nada
 */
 TercerParqueo::TercerParqueo(int size) {
 	size = size;

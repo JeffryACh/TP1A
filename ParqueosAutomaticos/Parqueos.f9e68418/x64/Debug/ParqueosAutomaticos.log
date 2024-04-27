@@ -1,2 +1,10 @@
 ﻿  main.cpp
+  ParqueoAutomatico.cpp
+  SegundoParqueo.cpp
+  TercerParqueo.cpp
+  Generating Code...
+C:\Users\ACER\OneDrive - Estudiantes ITCR\Documentos\Ing. Computacion\Quinto Semestre\Estructuras de Datos\TP\TP1A\TP1A\ParqueosAutomaticos\NodoDoble.h(31,2): warning C4091: 'typedef ': ignored on left of 'NodoDoble' when no variable is declared
+  (compiling source file 'TercerParqueo.cpp')
+  
+C:\Users\ACER\OneDrive - Estudiantes ITCR\Documentos\Ing. Computacion\Quinto Semestre\Estructuras de Datos\TP\TP1A\TP1A\ParqueosAutomaticos\ParqueoAutomatico.cpp(185,1): warning C4715: 'ParqueoAutomatico::SacarVehiculo': not all control paths return a value
   ParqueosAutomaticos.vcxproj -> C:\Users\ACER\OneDrive - Estudiantes ITCR\Documentos\Ing. Computacion\Quinto Semestre\Estructuras de Datos\TP\TP1A\TP1A\ParqueosAutomaticos\x64\Debug\ParqueosAutomaticos.exe
