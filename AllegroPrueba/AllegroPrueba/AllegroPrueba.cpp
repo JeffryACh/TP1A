@@ -31,7 +31,7 @@ int main() {
     }
 
     // Inicializamos la matriz valores de 69 y color blanco por defecto
-    matrix.resize(matrixXSize, std::vector<Cell>(matrixYSize, { 69, al_map_rgb(255, 255, 255) }));
+    matrix.resize(matrixXSize, std::vector<Cell>(matrixYSize, { 69, al_map_rgba(0, 0, 0, 0) }));
 
     if (matrixXSize + matrixYSize >= 222) { // Este condicional maneja cuestiones del tamaño (Puede necesitar mejoras)
         SPACE_SIZE = 3; // Reducir el tamaño del espacio si la suma de las dimensiones es grande
@@ -63,6 +63,10 @@ int main() {
         return -1;
     }
 
+    al_clear_to_color(al_map_rgb(0, 0, 139)); // Fondo azul oscuro
+    drawMatrix(display);
+    al_flip_display();
+
     ALLEGRO_FONT* font = al_create_builtin_font();
     if (!font) {
         fprintf(stderr, "Failed to create font.\n");
@@ -70,7 +74,7 @@ int main() {
         return -1;
     }
 
-    al_clear_to_color(al_map_rgb(255, 255, 255));
+    al_clear_to_color(al_map_rgb(67, 93, 115));
     drawMatrix(display);
     al_flip_display();
 
@@ -174,14 +178,11 @@ bool initializeAllegro() {
 void drawMatrix(ALLEGRO_DISPLAY* display) {
     int displayWidth = al_get_display_width(display);
     int displayHeight = al_get_display_height(display);
-
-    // Calcular el inicio en X e Y para centrar la matriz
     int startX = (displayWidth - matrixXSize * SPACE_SIZE) / 2;
     int startY = (displayHeight - matrixYSize * SPACE_SIZE) / 2;
 
     for (int i = 0; i < matrixXSize; ++i) {
         for (int j = 0; j < matrixYSize; ++j) {
-            // Ajustar cada celda para comenzar en startX y startY
             al_draw_filled_rectangle(startX + i * SPACE_SIZE, startY + j * SPACE_SIZE, startX + (i + 1) * SPACE_SIZE, startY + (j + 1) * SPACE_SIZE, matrix[i][j].color);
             al_draw_rectangle(startX + i * SPACE_SIZE, startY + j * SPACE_SIZE, startX + (i + 1) * SPACE_SIZE, startY + (j + 1) * SPACE_SIZE, al_map_rgb(0, 0, 0), 1);
         }
