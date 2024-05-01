@@ -26,6 +26,8 @@
 typedef struct Nodo {
 	Vehiculo* carro;
 	bool ocupado;
+	int coordenasX;
+	int coordenasY;
 	Nodo* next;
 }Nodo;
 

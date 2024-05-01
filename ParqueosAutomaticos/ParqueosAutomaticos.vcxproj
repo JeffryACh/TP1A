@@ -128,6 +128,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="ManejoDePestañas.cpp" />
     <ClCompile Include="ParqueoAutomatico.cpp" />
     <ClCompile Include="SegundoParqueo.cpp" />
     <ClCompile Include="TercerParqueo.cpp" />

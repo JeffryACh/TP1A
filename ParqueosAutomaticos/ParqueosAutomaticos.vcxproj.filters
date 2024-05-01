@@ -19,6 +19,9 @@
     <Filter Include="Archivos de recursos\Clases">
       <UniqueIdentifier>{6bf6fbd2-c416-4d98-a47e-d397c26fe32f}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Archivos de recursos\Allegro">
+      <UniqueIdentifier>{a7e2e184-e91b-486e-9f26-23eb746530a3}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -32,6 +35,9 @@
     </ClCompile>
     <ClCompile Include="TercerParqueo.cpp">
       <Filter>Archivos de recursos\Clases</Filter>
+    </ClCompile>
+    <ClCompile Include="ManejoDePestañas.cpp">
+      <Filter>Archivos de recursos\Allegro</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
