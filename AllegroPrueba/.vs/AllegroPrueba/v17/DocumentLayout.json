@@ -3,8 +3,13 @@
   "WorkspaceRootPath": "C:\\Users\\XPC\\OneDrive - Estudiantes ITCR\\Documentos\\Ing. Computacion\\Quinto Semestre\\Estructuras de Datos\\TP\\TP1A\\TP1A\\AllegroPrueba\\",
   "Documents": [
     {
+<<<<<<< Updated upstream
       "AbsoluteMoniker": "D:0:0:{F2EBF465-243C-4D91-AF84-14BF9230A662}|AllegroPrueba\\AllegroPrueba.vcxproj|C:\\Users\\XPC\\OneDrive - Estudiantes ITCR\\Documentos\\Ing. Computacion\\Quinto Semestre\\Estructuras de Datos\\TP\\TP1A\\TP1A\\AllegroPrueba\\AllegroPrueba\\AllegroPrueba.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{F2EBF465-243C-4D91-AF84-14BF9230A662}|AllegroPrueba\\AllegroPrueba.vcxproj|solutionrelative:AllegroPrueba\\AllegroPrueba.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+=======
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\gabob\\OneDrive\\Documentos\\GitHub\\TP1A\\AllegroPrueba\\AllegroPrueba\\AllegroPrueba.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:AllegroPrueba\\AllegroPrueba.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+>>>>>>> Stashed changes
     }
   ],
   "DocumentGroupContainers": [
@@ -24,7 +29,11 @@
               "RelativeDocumentMoniker": "AllegroPrueba\\AllegroPrueba.cpp",
               "ToolTip": "C:\\Users\\XPC\\OneDrive - Estudiantes ITCR\\Documentos\\Ing. Computacion\\Quinto Semestre\\Estructuras de Datos\\TP\\TP1A\\TP1A\\AllegroPrueba\\AllegroPrueba\\AllegroPrueba.cpp",
               "RelativeToolTip": "AllegroPrueba\\AllegroPrueba.cpp",
+<<<<<<< Updated upstream
               "ViewState": "AQIAALgAAAAAAAAAAAAYwMwAAABuAAAA",
+=======
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAACEAAABPAAAA",
+>>>>>>> Stashed changes
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-04-27T23:00:25.171Z",
               "EditorCaption": ""
