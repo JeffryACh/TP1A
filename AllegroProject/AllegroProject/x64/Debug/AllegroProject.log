@@ -1,0 +1,3 @@
+﻿  AllegroProject.cpp
+C:\Users\gabob\OneDrive\Documentos\GitHub\TP1A\AllegroProject\AllegroProject\AllegroProject.cpp(151,1): warning C4715: 'mostrarMenu': not all control paths return a value
+  AllegroProject.vcxproj -> C:\Users\gabob\OneDrive\Documentos\GitHub\TP1A\AllegroProject\x64\Debug\AllegroProject.exe
