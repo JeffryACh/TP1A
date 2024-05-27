@@ -12,7 +12,6 @@ struct Cell {
     ALLEGRO_COLOR color;
 };
 
-//Según yo esto debería permitir enseñar la info de la matriz, pero puede ser que no
 std::vector<std::vector<Cell>> matrix;
 
 //Necesario para Allegro
@@ -95,7 +94,7 @@ void adjustSpaceSize() {
     }
 }
 
-//Este código de fijo lo vamos a tener que cambiar para que refleje la info de las matrices
+//Este código debe modificarse para que refleje la info de las matrices
 void showInfo(ALLEGRO_DISPLAY* display, ALLEGRO_FONT* font, int x, int y) {
     if (x >= 0 && x < matrixXSize && y >= 0 && y < matrixYSize) {
         al_draw_filled_rectangle(0, al_get_display_height(display) - al_get_font_line_height(font), al_get_display_width(display), al_get_display_height(display), al_map_rgba(255, 255, 255, 200));
@@ -112,7 +111,6 @@ int mostrarMenu() {
     int opcion;
 
     do {
-        // Mostrar el menú
         std::cout << "Menu de opciones:\n";
         std::cout << "1. Estacionamiento 1\n";
         std::cout << "2. Estacionamiento 2\n";
@@ -152,8 +150,8 @@ int main() {
     if (!initializeAllegro()) {
         return -1;}
 
-    // Inicializamos la matriz valores de 69 y color blanco por defecto
-    matrix.resize(matrixXSize, std::vector<Cell>(matrixYSize, { 69, al_map_rgba(255, 255, 255, 255) }));
+    // Inicializamos la matriz valores de 0 y color blanco por defecto
+    matrix.resize(matrixXSize, std::vector<Cell>(matrixYSize, { 0, al_map_rgba(255, 255, 255, 255) }));
 
     auxiliarVentana();
     int windowWidth = matrixXSize * SPACE_SIZE;
@@ -170,7 +168,7 @@ int main() {
         return -1;
     }
 
-    al_clear_to_color(al_map_rgb(0, 0, 139)); // Fondo azul oscuro
+    al_clear_to_color(al_map_rgb(0, 0, 139));
     drawMatrix(display);
     al_flip_display();
 
