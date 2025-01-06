@@ -59,11 +59,11 @@ int main()
 	vehiculo4->placa = "JKL101";
 	vehiculo4->chofer = user4;
 
-	//parqueo->MeterVehiculo(vehiculo3);
+	parqueo->MeterVehiculo(vehiculo3);
 
-	//parqueo->mostrarVehiculos();
+	parqueo->mostrarVehiculos();
 
-	/*Vehiculo* vehiculo = parqueo->SacarVehiculo("DEF456");
+	Vehiculo* vehiculo = parqueo->SacarVehiculo("DEF456");
 
 	if (vehiculo != NULL)
 	{
@@ -82,7 +82,8 @@ int main()
 	delete user2;
 	delete vehiculo2;
 	delete user3;
-	delete vehiculo3;*/
+	delete vehiculo3;
+
 	SegundoParqueo* parqueoDe2Plantas = new SegundoParqueo(2);
 	parqueoDe2Plantas->MeterVehiculo(vehiculo1);
 	parqueoDe2Plantas->MeterVehiculo(vehiculo2);

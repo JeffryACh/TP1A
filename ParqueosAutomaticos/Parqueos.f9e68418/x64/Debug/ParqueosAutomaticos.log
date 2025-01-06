@@ -1,11 +1,8 @@
-﻿ManejoDePestañas.obj : error LNK2005: main already defined in main.obj
-ManejoDePestañas.obj : error LNK2019: unresolved external symbol __imp_al_init_primitives_addon referenced in function "bool __cdecl initializeAllegro(void)" (?initializeAllegro@@YA_NXZ)
-ManejoDePestañas.obj : error LNK2019: unresolved external symbol __imp_al_draw_rectangle referenced in function "void __cdecl drawMatrix(struct ALLEGRO_DISPLAY *)" (?drawMatrix@@YAXPEAUALLEGRO_DISPLAY@@@Z)
-ManejoDePestañas.obj : error LNK2019: unresolved external symbol __imp_al_draw_filled_rectangle referenced in function "void __cdecl drawMatrix(struct ALLEGRO_DISPLAY *)" (?drawMatrix@@YAXPEAUALLEGRO_DISPLAY@@@Z)
-ManejoDePestañas.obj : error LNK2019: unresolved external symbol __imp_al_create_builtin_font referenced in function main
-ManejoDePestañas.obj : error LNK2019: unresolved external symbol __imp_al_draw_textf referenced in function "void __cdecl showInfo(struct ALLEGRO_DISPLAY *,struct ALLEGRO_FONT *,int,int)" (?showInfo@@YAXPEAUALLEGRO_DISPLAY@@PEAUALLEGRO_FONT@@HH@Z)
-ManejoDePestañas.obj : error LNK2019: unresolved external symbol __imp_al_get_font_line_height referenced in function "void __cdecl showInfo(struct ALLEGRO_DISPLAY *,struct ALLEGRO_FONT *,int,int)" (?showInfo@@YAXPEAUALLEGRO_DISPLAY@@PEAUALLEGRO_FONT@@HH@Z)
-ManejoDePestañas.obj : error LNK2019: unresolved external symbol __imp_al_destroy_font referenced in function main
-ManejoDePestañas.obj : error LNK2019: unresolved external symbol __imp_al_init_font_addon referenced in function "bool __cdecl initializeAllegro(void)" (?initializeAllegro@@YA_NXZ)
-ManejoDePestañas.obj : error LNK2019: unresolved external symbol __imp_al_init_ttf_addon referenced in function "bool __cdecl initializeAllegro(void)" (?initializeAllegro@@YA_NXZ)
-C:\Users\gabob\OneDrive\Documentos\GitHub\TP1A\ParqueosAutomaticos\x64\Debug\ParqueosAutomaticos.exe : fatal error LNK1120: 9 unresolved externals
+﻿  main.cpp
+C:\Users\gabob\OneDrive\Documentos\GitHub\TP1A\ParqueosAutomaticos\main.cpp(62,2): error C2065: 'parqueo': undeclared identifier
+C:\Users\gabob\OneDrive\Documentos\GitHub\TP1A\ParqueosAutomaticos\main.cpp(64,2): error C2065: 'parqueo': undeclared identifier
+C:\Users\gabob\OneDrive\Documentos\GitHub\TP1A\ParqueosAutomaticos\main.cpp(66,23): error C2065: 'parqueo': undeclared identifier
+C:\Users\gabob\OneDrive\Documentos\GitHub\TP1A\ParqueosAutomaticos\main.cpp(77,2): error C2065: 'parqueo': undeclared identifier
+C:\Users\gabob\OneDrive\Documentos\GitHub\TP1A\ParqueosAutomaticos\main.cpp(79,9): error C2065: 'parqueo': undeclared identifier
+C:\Users\gabob\OneDrive\Documentos\GitHub\TP1A\ParqueosAutomaticos\main.cpp(79,2): error C2541: 'delete': cannot delete objects that are not pointers
+C:\Users\gabob\OneDrive\Documentos\GitHub\TP1A\ParqueosAutomaticos\main.cpp(103,12): error C2374: 'vehiculo': redefinition; multiple initialization

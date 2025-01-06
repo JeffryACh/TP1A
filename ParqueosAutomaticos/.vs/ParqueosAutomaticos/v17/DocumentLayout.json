@@ -1,12 +1,88 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\gabob\\OneDrive\\Documentos\\GitHub\\TP1A\\ParqueosAutomaticos\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F9E68418-23F1-4D93-856A-724DD01AE2F9}|ParqueosAutomaticos.vcxproj|C:\\Users\\gabob\\OneDrive\\Documentos\\GitHub\\TP1A\\ParqueosAutomaticos\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F9E68418-23F1-4D93-856A-724DD01AE2F9}|ParqueosAutomaticos.vcxproj|solutionrelative:main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9E68418-23F1-4D93-856A-724DD01AE2F9}|ParqueosAutomaticos.vcxproj|C:\\Users\\gabob\\OneDrive\\Documentos\\GitHub\\TP1A\\ParqueosAutomaticos\\TercerParqueo.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F9E68418-23F1-4D93-856A-724DD01AE2F9}|ParqueosAutomaticos.vcxproj|solutionrelative:TercerParqueo.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9E68418-23F1-4D93-856A-724DD01AE2F9}|ParqueosAutomaticos.vcxproj|C:\\Users\\gabob\\OneDrive\\Documentos\\GitHub\\TP1A\\ParqueosAutomaticos\\SegundoParqueo.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F9E68418-23F1-4D93-856A-724DD01AE2F9}|ParqueosAutomaticos.vcxproj|solutionrelative:SegundoParqueo.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F9E68418-23F1-4D93-856A-724DD01AE2F9}|ParqueosAutomaticos.vcxproj|C:\\Users\\gabob\\OneDrive\\Documentos\\GitHub\\TP1A\\ParqueosAutomaticos\\ParqueoAutomatico.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{F9E68418-23F1-4D93-856A-724DD01AE2F9}|ParqueosAutomaticos.vcxproj|solutionrelative:ParqueoAutomatico.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "main.cpp",
+              "DocumentMoniker": "C:\\Users\\gabob\\OneDrive\\Documentos\\GitHub\\TP1A\\ParqueosAutomaticos\\main.cpp",
+              "RelativeDocumentMoniker": "main.cpp",
+              "ToolTip": "C:\\Users\\gabob\\OneDrive\\Documentos\\GitHub\\TP1A\\ParqueosAutomaticos\\main.cpp",
+              "RelativeToolTip": "main.cpp",
+              "ViewState": "AQIAAE4AAAAAAAAAAAAAACgAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-30T04:48:27.514Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ParqueoAutomatico.cpp",
+              "DocumentMoniker": "C:\\Users\\gabob\\OneDrive\\Documentos\\GitHub\\TP1A\\ParqueosAutomaticos\\ParqueoAutomatico.cpp",
+              "RelativeDocumentMoniker": "ParqueoAutomatico.cpp",
+              "ToolTip": "C:\\Users\\gabob\\OneDrive\\Documentos\\GitHub\\TP1A\\ParqueosAutomaticos\\ParqueoAutomatico.cpp",
+              "RelativeToolTip": "ParqueoAutomatico.cpp",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAACcAAAADAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-30T05:00:48.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "SegundoParqueo.cpp",
+              "DocumentMoniker": "C:\\Users\\gabob\\OneDrive\\Documentos\\GitHub\\TP1A\\ParqueosAutomaticos\\SegundoParqueo.cpp",
+              "RelativeDocumentMoniker": "SegundoParqueo.cpp",
+              "ToolTip": "C:\\Users\\gabob\\OneDrive\\Documentos\\GitHub\\TP1A\\ParqueosAutomaticos\\SegundoParqueo.cpp",
+              "RelativeToolTip": "SegundoParqueo.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-30T05:07:48.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TercerParqueo.cpp",
+              "DocumentMoniker": "C:\\Users\\gabob\\OneDrive\\Documentos\\GitHub\\TP1A\\ParqueosAutomaticos\\TercerParqueo.cpp",
+              "RelativeDocumentMoniker": "TercerParqueo.cpp",
+              "ToolTip": "C:\\Users\\gabob\\OneDrive\\Documentos\\GitHub\\TP1A\\ParqueosAutomaticos\\TercerParqueo.cpp",
+              "RelativeToolTip": "TercerParqueo.cpp",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIBAAACAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
+              "WhenOpened": "2024-05-30T05:15:10.517Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }
